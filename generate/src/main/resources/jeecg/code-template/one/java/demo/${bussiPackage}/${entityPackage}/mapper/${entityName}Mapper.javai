@@ -1,0 +1,19 @@
+package ${bussiPackage}.${entityPackage}.mapper;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Mapper;
+import com.hnlwxf.dlsysite.common.modules.entity.${entityName};
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
+/**
+ * @Description: ${tableVo.ftlDescription}
+ * @Author: lyh
+ * @Date:   ${.now?string["yyyy-MM-dd"]}
+ * @Version: V1.1
+ */
+@Mapper
+public interface ${entityName}Mapper extends BaseMapper<${entityName}> {
+
+}
